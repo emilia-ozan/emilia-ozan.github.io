@@ -121,15 +121,15 @@
       return num < 10 ? "0" + num : num;
     }
 
-    function dispalyWidget() {
+    function displayWidget() {
       const today = new Date();
       dispalyGreetings(today);
       dispalyDate(today);
       dispalyClock(today);
-      setTimeout(dispalyWidget, 500);
+      setTimeout(displayWidget, 500);
     }
 
-    dispalyWidget();
+    displayWidget();
   </script>
 
 </body>
